@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lista de chequeo</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/WhatsApp Image 2024-11-19 at 4.35.29 PM.jpeg" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
+            </head>
+                Lista de chequeo
+              </a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+  </nav>
+  <body>
+  <p></p>
+   <h2>Lista de chequeo</h2>
+   DATOS DEL CONDUCTOR
+   <p></p>
+   <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Primer nombre" aria-label="Primer nombre">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+    </div>
+  </div>
+  <p></p>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Estado de automovil</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          EXCELENTE
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2"checked>
+        <label class="form-check-label" for="gridRadios2">
+          BUENO
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
+        <label class="form-check-label" for="gridRadios3">
+          MALO
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <p></p>
+   Agregar placa de auto
+   <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupFile01">Upload</label>
+    <input type="file" class="form-control" id="inputGroupFile01">
+  </div>
+  Agregar Soat
+  <div class="input-group mb-3">
+    <input type="file" class="form-control" id="inputGroupFile02">
+    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+  </div>
+  Agregar Rut
+  <div class="input-group">
+    <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+  </div>
+  <p></p>
+  <select class="form-select" size="3" aria-label="Size 3 select example">
+    <option selected>¿Hay algun tipo de daño?</option>
+    <option value="1">si</option>
+    <option value="2">no</option>
+    <option value="3">pronto</option>
+  </select>
+  <p></p>
+  Comentario
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" ></textarea>
+    <label for="floatingTextarea2">Explica el tipo de daño</label>
+  </div>
+  <p></p>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  </div>
+</body>
+</html>

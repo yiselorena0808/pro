@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>actividades ludicas</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <section id="actividad-ludica">
+        <h2>Agregar actividad lúdica</h2>
+        <form id="formulario-actividad" enctype="multipart/form-data">
+          <label for="titulo-actividad">Título de la actividad:</label>
+          <input type="text" id="titulo-actividad" name="titulo-actividad"><br><br>
+          <label for="descripcion-actividad">Descripción de la actividad:</label>
+          <textarea id="descripcion-actividad" name="descripcion-actividad"></textarea><br><br>
+          <label for="fecha-actividad">Fecha de la actividad:</label>
+          <input type="date" id="fecha-actividad" name="fecha-actividad"><br><br>
+          <label for="archivo-actividad">Adjuntar archivo:</label>
+          <input type="file" id="archivo-actividad" name="archivo-actividad"><br><br>
+          <button id="boton-agregar">Agregar actividad</button>
+        </form>
+        <div id="lista-actividades">
+          <!-- Aquí se mostrarán las actividades agregadas -->
+        </div>
+      </section>
+</body>
